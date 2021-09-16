@@ -21,8 +21,6 @@
 
 <br>
 
----
-
 # 🛠 기술 스택
 
 ## BackEnd
@@ -39,10 +37,6 @@
 ## Infra
 * AWS EC2
 * Jenkins
-
-<br>
-
----
 
 <br>
 
