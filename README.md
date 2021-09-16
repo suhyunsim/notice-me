@@ -11,8 +11,8 @@
 <p align="center">
 
 <!-- ![Build Status](https://travis-ci.com/SimLeeTag/photo-tag-backend.svg?branch=deploy)](https://travis-ci.com/SimLeeTag/photo-tag-backend) -->
-![last commit](https://img.shields.io/github/last-commit/notice-me?color=5833C1)
-![most language](https://img.shields.io/github/languages/top/notice-me)
+![last commit](https://img.shields.io/github/last-commit/suhyunsim/notice-me?color=5833C1)
+![most language](https://img.shields.io/github/languages/top/suhyunsim/notice-me)
 <img src="https://img.shields.io/badge/spring_boot-v2.5.4-green?logo=springboot"  alt="spring-boot" />
 
 <!-- <img src="https://img.shields.io/badge/mysql-v8.0.26-blue?logo=mysql" alt="mysql"/> -->
