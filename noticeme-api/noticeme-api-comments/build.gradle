@@ -1,0 +1,8 @@
+version '0.0.1-SNAPSHOT'
+
+dependencies {
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter'
+        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    }
+}

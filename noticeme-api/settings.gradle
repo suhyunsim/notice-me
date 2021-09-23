@@ -1,0 +1,4 @@
+rootProject.name = 'noticeme-api'
+include 'noticeme-api-common'
+include 'noticeme-api-mentions'
+include 'noticeme-api-comments'
