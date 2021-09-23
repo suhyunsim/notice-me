@@ -3,6 +3,17 @@ version '0.0.1-SNAPSHOT'
 dependencies {
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter'
-        testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        runtimeOnly 'mysql:mysql-connector-java'
+        compileOnly 'org.projectlombok:lombok'
+        annotationProcessor("org.projectlombok:lombok")
+
+        testImplementation ('org.springframework.boot:spring-boot-starter-test') {
+            exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        }
+        testImplementation('org.junit.jupiter:junit-jupiter-api')
+        testImplementation('org.mockito:mockito-junit-jupiter')
+        testImplementation('org.junit.jupiter:junit-jupiter-params')
     }
 }
